@@ -11,5 +11,6 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "workshop" {
+  # comment
   bucket_prefix = "eugene-s3-mod-3-2"
 }
